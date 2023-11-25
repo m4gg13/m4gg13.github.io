@@ -1,4 +1,0 @@
-baseURL = 'https://m4gg13.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'cupper-hugo-theme'
