@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://m4gg13.github.io/'
 languageCode = 'en-us'
 title = 'Hehe maggie'
 theme = 'cupper-hugo-theme'
