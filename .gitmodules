@@ -1,0 +1,6 @@
+[submodule "quickstart/themes/cupper"]
+	path = quickstart/themes/cupper
+	url = git@github.com:ThePacielloGroup/cupper.git
+[submodule "quickstart/themes/ananke"]
+	path = quickstart/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
