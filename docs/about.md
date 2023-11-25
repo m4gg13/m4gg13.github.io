@@ -1,1 +1,0 @@
-### the about page where ill write stuff

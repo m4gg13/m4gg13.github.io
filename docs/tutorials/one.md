@@ -1,1 +1,0 @@
-## tutorial for how to use test mac as extended desktop!
