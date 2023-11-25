@@ -10,3 +10,9 @@
 [submodule "quickstart/themes/cupper-hugo-theme"]
 	path = quickstart/themes/cupper-hugo-theme
 	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "my-site/themes/ananke"]
+	path = my-site/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "my-site/themes/cupper-hugo-theme"]
+	path = my-site/themes/cupper-hugo-theme
+	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
