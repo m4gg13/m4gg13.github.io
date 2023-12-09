@@ -6,13 +6,38 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 1990 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://m4gg13.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Making a Github pages site with Hugo</title>
-      <link>https://m4gg13.github.io/posts/firstpost/</link>
+      <title>Github Pages &amp; Hugo - A tutorial</title>
+      <link>https://m4gg13.github.io/posts/post-github-pages-hugo-25november2023/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
+      <guid>https://m4gg13.github.io/posts/post-github-pages-hugo-25november2023/</guid>
+      <description>Making a Github Pages site with Hugo was a struggle! But my boyfriend Jacob and I made with work with the help of these resources
+https://gohugo.io/getting-started/quick-start/ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site https://freshman.tech/web-development-with-go/ https://blog.clairvoyantsoft.com/create-a-static-website-with-hugo-and-host-it-with-github-pages-f268b12371 After 5 hours of working on it, we sorted out that a structure like this (screenshot of and link to private repo) https://github.com/m4gg13/m4gg13.github.io-private (screenshot of and link to public repo) https://github.com/m4gg13/m4gg13.github.io made sense for the Hugo workflow. Note: The repos&amp;rsquo; structures might have changed since this post was made.</description>
+    </item>
+    <item>
+      <title>Particle Sandbox - Identifying a simulation algorithm</title>
+      <link>https://m4gg13.github.io/posts/post-particle-sandbox-23november2023/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
+      <guid>https://m4gg13.github.io/posts/post-particle-sandbox-23november2023/</guid>
+      <description>I&amp;rsquo;ve got some education on the subject of programming a quantum computer. Used Qiskit as well as OpenQASM. I have less education on the subject of particle physics but I do love the particle physics at a high level. I&amp;rsquo;ve become somewhat familiar with it through comsuming relevant media like:
+field guide to particle physics that one mindscape episode and other ones too wiki pages youtube videos Thought a good first step would be looking into what kinds of algorithms get used in quantum particle simulations.</description>
+    </item>
+    <item>
+      <title>Particle Sandbox - Project Definition</title>
+      <link>https://m4gg13.github.io/posts/post-particle-sandbox-project-definition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://m4gg13.github.io/posts/firstpost/</guid>
-      <description>It was a bit of a pain in the butt!</description>
+      <guid>https://m4gg13.github.io/posts/post-particle-sandbox-project-definition/</guid>
+      <description>A&amp;hellip; description of what this project is all about</description>
+    </item>
+    <item>
+      <title>Pursuit of Knowledge</title>
+      <link>https://m4gg13.github.io/posts/post-philosophy-6december2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://m4gg13.github.io/posts/post-philosophy-6december2023/</guid>
+      <description>https://en.wikipedia.org/wiki/Mysticism
+another way (beside philosophy) of addressing fundamental questions like existence, knowledge, values, reason, mind, and language mysticism is differentiated from philosophy in that philosopohy requires systematic and logical analysis of language and clarification of the meaning of words and concepts while mysticism and religion focus more on &amp;ldquo;the Absolute or the Infinite&amp;rdquo; perennial philosophy: the idea that religious traditions share a singl, metaphysical truth or origin universalism is the idea that all religions point to the same Truth &amp;ldquo;The Perennial Philosophy&amp;rdquo; by Aldour Huxley, 1945.</description>
     </item>
   </channel>
 </rss>
