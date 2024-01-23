@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.120.4">
-  <link rel="canonical" href="https://m4gg13.github.io/posts/post-philosophy-6december2023/" />
+  <link rel="canonical" href="https://m4gg13.github.io/posts/post7-particle-sandbox-22january2024/" />
 
   
     
-    <meta name="description" content="https://en.wikipedia.org/wiki/Mysticism
-another way (beside philosophy) of addressing fundamental questions like existence, knowledge, values, reason, mind, and language mysticism is differentiated from philosophy in that philosopohy requires systematic and logical analysis of language and clarification of the meaning of words and concepts while mysticism and religion focus more on “the Absolute or the Infinite” perennial philosophy: the idea that religious traditions share a singl, metaphysical truth or origin universalism is the idea that all religions point to the same Truth “The Perennial Philosophy” by Aldour Huxley, 1945.">
+    <meta name="description" content="In the previous update I had decided on an algorithm offered in qiskit that would take a model in the form of a series of equations and produce a Hamiltonian from that. Figuring ensued surrounding what kind of model I wanted… it appeared that the Standard Model of particle physics would be exactly what I was looking for. The catch was that the Standard Model of particle physics is usually in Lagrangian form due to its reliance on the principle of least action.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://m4gg13.github.io/apple-touch-icon.png">
@@ -57,7 +56,7 @@ another way (beside philosophy) of addressing fundamental questions like existen
 
   
   
-  <title>Pursuit of Knowledge | My New Hugo Site</title>
+  <title>Particle Sandbox - Honing the approach | My New Hugo Site</title>
 </head>
 
   <body>
@@ -208,26 +207,32 @@ another way (beside philosophy) of addressing fundamental questions like existen
         <div>
           
   <main id="main">
-    <h1>Pursuit of Knowledge</h1>
-    <p><a href="https://en.wikipedia.org/wiki/Mysticism">https://en.wikipedia.org/wiki/Mysticism</a></p>
+    <h1>Particle Sandbox - Honing the approach</h1>
+    <p>In the previous update I had decided on an algorithm offered in qiskit that would take a model in the form of a series of equations and produce a Hamiltonian from that. Figuring ensued surrounding what kind of model I wanted&hellip; it appeared that the Standard Model of particle physics would be exactly what I was looking for. The catch was that the Standard Model of particle physics is usually in Lagrangian form due to its reliance on the principle of least action. It was unclear whether this would play nicely with the Hamiltonian that my chosen algorithm would put out.</p>
+<p>Through wondering about how to use the Standard Model of particle physics to actually predict particle interactions I decided to write it out in python. I&rsquo;ve gotten almost half way at this point and it feels justified, now that I know a bit more about how it works, whether it is actually the thing that I need to use as my model.</p>
+<p>The conclusion that I&rsquo;m coming to is that:</p>
+<ol>
+<li>I should finish out translating the Standard Model of particle physics to Python and put it in a repo</li>
+</ol>
+<p>and</p>
+<ol start="2">
+<li>It isn&rsquo;t <em>exactly</em> what I&rsquo;m looking for in a model for this project.</li>
+</ol>
+<p>Instead it appears that the model I seek will:</p>
 <ul>
-<li>another way (beside philosophy) of addressing fundamental questions like existence, knowledge, values, reason, mind, and language
+<li>Have (configurable but set to Standard Model values by default) environment variables that will influence decisions
 <ul>
-<li>mysticism is differentiated from philosophy in that philosopohy requires systematic and logical analysis of language and clarification of the meaning of words and concepts while mysticism and religion focus more on &ldquo;the Absolute or the Infinite&rdquo;</li>
+<li>The Standard Model does have this component</li>
 </ul>
 </li>
-<li>perennial philosophy: the idea that religious traditions share a singl, metaphysical truth or origin
+<li>Take a time direction and the input state and consider what combinations can be made from it given the environment
 <ul>
-<li>universalism is the idea that all religions point to the same Truth</li>
-<li>&ldquo;The Perennial Philosophy&rdquo; by Aldour Huxley, 1945. Same Huxley who wrote &ldquo;A Brave New World&rdquo;. I have yet to read either</li>
+<li>It is yet unclear to me whether the Standard Model offers this</li>
 </ul>
 </li>
-</ul>
-<p>value monism vs value pluralism?</p>
-<p>moral relativism vs moral universalism? jordan peterson and sam harris both condemned moral relativism very readily, as though they had thought about it thoroughly and assumed each other dismissed it.
-- looks like moral universalism doesn&rsquo;t have to be absolutist (absolute right and wrong) like utilitarianism for example is non-absolutist</p>
-<ul>
-<li>syncretism: the amalgamation of different religions, cultures, or schools of thought</li>
+<li>Each possible outcome should be assigned a probability density</li>
+<li>Whichever state has the highest probability will be chosen as the output state</li>
+<li>The output state should be put into the same terms as the input state was</li>
 </ul>
 
   </main>

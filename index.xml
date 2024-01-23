@@ -10,17 +10,17 @@
     <atom:link href="https://m4gg13.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Pages &amp; Hugo - A tutorial</title>
-      <link>https://m4gg13.github.io/posts/post-github-pages-hugo-25november2023/</link>
+      <link>https://m4gg13.github.io/posts/post1-github-pages-hugo-25november2023/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
-      <guid>https://m4gg13.github.io/posts/post-github-pages-hugo-25november2023/</guid>
+      <guid>https://m4gg13.github.io/posts/post1-github-pages-hugo-25november2023/</guid>
       <description>Making a Github Pages site with Hugo was a struggle! But my boyfriend Jacob and I made with work with the help of these resources
 https://gohugo.io/getting-started/quick-start/ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site https://freshman.tech/web-development-with-go/ https://blog.clairvoyantsoft.com/create-a-static-website-with-hugo-and-host-it-with-github-pages-f268b12371 After 5 hours of working on it, we sorted out that a structure like this (screenshot of and link to private repo) https://github.com/m4gg13/m4gg13.github.io-private (screenshot of and link to public repo) https://github.com/m4gg13/m4gg13.github.io made sense for the Hugo workflow. Note: The repos&amp;rsquo; structures might have changed since this post was made.</description>
     </item>
     <item>
       <title>Particle Sandbox - Identifying a simulation algorithm</title>
-      <link>https://m4gg13.github.io/posts/post-particle-sandbox-23november2023/</link>
+      <link>https://m4gg13.github.io/posts/post3-particle-sandbox-23november2023/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
-      <guid>https://m4gg13.github.io/posts/post-particle-sandbox-23november2023/</guid>
+      <guid>https://m4gg13.github.io/posts/post3-particle-sandbox-23november2023/</guid>
       <description>I&amp;rsquo;ve got some education on the subject of programming a quantum computer. Used Qiskit as well as OpenQASM. I have less education on the subject of particle physics but I do love the particle physics at a high level. I&amp;rsquo;ve become somewhat familiar with it through comsuming relevant media like:
 field guide to particle physics that one mindscape episode and other ones too wiki pages youtube videos Thought a good first step would be looking into what kinds of algorithms get used in quantum particle simulations.</description>
     </item>
@@ -32,25 +32,45 @@ field guide to particle physics that one mindscape episode and other ones too wi
       <description>Career Education Skills Service </description>
     </item>
     <item>
-      <title>Particle Sandbox - Project Definition</title>
-      <link>https://m4gg13.github.io/posts/post-particle-sandbox-project-definition/</link>
+      <title>First Read the Canon then read the Canon&#39;s Antitheses</title>
+      <link>https://m4gg13.github.io/posts/post6-philosophy-canon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://m4gg13.github.io/posts/post-particle-sandbox-project-definition/</guid>
-      <description>A&amp;hellip; description of what this project is all about</description>
+      <guid>https://m4gg13.github.io/posts/post6-philosophy-canon/</guid>
+      <description>I heard it suggested that in order to get a fundamental knowledge of philosophy - a knowledge upon which one can have solid discussions - a student should read the basic takes and their anti-takes.
+Wanted to note that I now know that Socrates was Plato&amp;rsquo;s teacher and Plato was Aristotle&amp;rsquo;s teacher
+Gonna read Gorgias which reflects Socrates&amp;rsquo; and Platos&amp;rsquo; perspectives. Then I&amp;rsquo;ll read Aristotle&amp;rsquo;s perspective in The Rhetoric</description>
+    </item>
+    <item>
+      <title>Particle Sandbox - Honing the approach</title>
+      <link>https://m4gg13.github.io/posts/post7-particle-sandbox-22january2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://m4gg13.github.io/posts/post7-particle-sandbox-22january2024/</guid>
+      <description>In the previous update I had decided on an algorithm offered in qiskit that would take a model in the form of a series of equations and produce a Hamiltonian from that. Figuring ensued surrounding what kind of model I wanted&amp;hellip; it appeared that the Standard Model of particle physics would be exactly what I was looking for. The catch was that the Standard Model of particle physics is usually in Lagrangian form due to its reliance on the principle of least action.</description>
+    </item>
+    <item>
+      <title>Particle Sandbox - Project Definition</title>
+      <link>https://m4gg13.github.io/posts/post2-particle-sandbox-project-definition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://m4gg13.github.io/posts/post2-particle-sandbox-project-definition/</guid>
+      <description>Goal Key Structures Particles For example:
+protocol SubatomicParticle class Electron: SubatomicParticle var charge: Int var fundamental: Bool var weight: Double Environment Variable Configuration Masses of all of the particles like electron, muon, tau, etc. Other things? Editor With which the configuration can be adjusted and the input state crafted
+Simulator With which the calculations are done
+Renderer With which the output state (Feynman diagram?) is displayed
+Input A dictionary where each subclass of SubatomicParticle or Atom or Molecule has a quantity associated with it that indicates how many exist in the input state.</description>
     </item>
     <item>
       <title>Perennial Philosophy &amp; its pitfalls</title>
-      <link>https://m4gg13.github.io/posts/post-philosophy-9december2023/</link>
+      <link>https://m4gg13.github.io/posts/post5-philosophy-9december2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://m4gg13.github.io/posts/post-philosophy-9december2023/</guid>
+      <guid>https://m4gg13.github.io/posts/post5-philosophy-9december2023/</guid>
       <description>It is of course a good habit to look for reasons why the things you think might be wrong. Doing so can help you understand people who think differently than you as well as give you the chance to strengthen or evolve your beliefs.
 I find that at this point in my life I am inclined to believe that all religions point to the same truth underneath. Wikipedia told me that this is called Perennial Philosophy.</description>
     </item>
     <item>
       <title>Pursuit of Knowledge</title>
-      <link>https://m4gg13.github.io/posts/post-philosophy-6december2023/</link>
+      <link>https://m4gg13.github.io/posts/post4-philosophy-6december2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://m4gg13.github.io/posts/post-philosophy-6december2023/</guid>
+      <guid>https://m4gg13.github.io/posts/post4-philosophy-6december2023/</guid>
       <description>https://en.wikipedia.org/wiki/Mysticism
 another way (beside philosophy) of addressing fundamental questions like existence, knowledge, values, reason, mind, and language mysticism is differentiated from philosophy in that philosopohy requires systematic and logical analysis of language and clarification of the meaning of words and concepts while mysticism and religion focus more on &amp;ldquo;the Absolute or the Infinite&amp;rdquo; perennial philosophy: the idea that religious traditions share a singl, metaphysical truth or origin universalism is the idea that all religions point to the same Truth &amp;ldquo;The Perennial Philosophy&amp;rdquo; by Aldour Huxley, 1945.</description>
     </item>

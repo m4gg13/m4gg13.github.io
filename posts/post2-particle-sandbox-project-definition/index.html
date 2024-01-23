@@ -6,11 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.120.4">
-  <link rel="canonical" href="https://m4gg13.github.io/posts/" />
+  <link rel="canonical" href="https://m4gg13.github.io/posts/post2-particle-sandbox-project-definition/" />
 
   
     
-    <meta name="description" content="Posts">
+    <meta name="description" content="Goal Key Structures Particles For example:
+protocol SubatomicParticle class Electron: SubatomicParticle var charge: Int var fundamental: Bool var weight: Double Environment Variable Configuration Masses of all of the particles like electron, muon, tau, etc. Other things? Editor With which the configuration can be adjusted and the input state crafted
+Simulator With which the calculations are done
+Renderer With which the output state (Feynman diagram?) is displayed
+Input A dictionary where each subclass of SubatomicParticle or Atom or Molecule has a quantity associated with it that indicates how many exist in the input state.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://m4gg13.github.io/apple-touch-icon.png">
@@ -56,7 +60,7 @@
 
   
   
-  <title>Posts | My New Hugo Site</title>
+  <title>Particle Sandbox - Project Definition | My New Hugo Site</title>
 </head>
 
   <body>
@@ -206,125 +210,36 @@
       <div class="main-and-footer">
         <div>
           
-<main id="main">
-  <h1>Posts</h1>
-  
-  <ul class="patterns-list" id="list">
-    
-    <li>
-      <h2>
-        <a href="/posts/post3-particle-sandbox-23november2023/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          Particle Sandbox - Identifying a simulation algorithm
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/posts/post1-github-pages-hugo-25november2023/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          Github Pages &amp; Hugo - A tutorial
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/posts/post4-philosophy-6december2023/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          Pursuit of Knowledge
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/posts/post5-philosophy-9december2023/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          Perennial Philosophy &amp; its pitfalls
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/posts/post2-particle-sandbox-project-definition/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          Particle Sandbox - Project Definition
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/posts/post7-particle-sandbox-22january2024/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          Particle Sandbox - Honing the approach
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/posts/post6-philosophy-canon/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use href="#bookmark"></use>
-          </svg>
-          First Read the Canon then read the Canon&#39;s Antitheses
-        </a>
-      </h2>
-    </li>
-    
-  </ul>
-</main>
+  <main id="main">
+    <h1>Particle Sandbox - Project Definition</h1>
+    <h2 id="goal">Goal</h2>
+<h2 id="key-structures">Key Structures</h2>
+<h3 id="particles">Particles</h3>
+<p>For example:</p>
+<pre tabindex="0"><code>protocol SubatomicParticle
+
+class Electron: SubatomicParticle
+var charge: Int
+var fundamental: Bool
+var weight: Double
+</code></pre><h3 id="environment-variable-configuration">Environment Variable Configuration</h3>
+<ul>
+<li>Masses of all of the particles like electron, muon, tau, etc.</li>
+<li>Other things?</li>
+</ul>
+<h3 id="editor">Editor</h3>
+<p>With which the configuration can be adjusted and the input state crafted</p>
+<h3 id="simulator">Simulator</h3>
+<p>With which the calculations are done</p>
+<h3 id="renderer">Renderer</h3>
+<p>With which the output state (Feynman diagram?) is displayed</p>
+<h2 id="input">Input</h2>
+<p>A dictionary where each subclass of SubatomicParticle or Atom or Molecule has a quantity associated with it that indicates how many exist in the input state.</p>
+<p>Also, a direction for time needs to be specified - either forward or backward. Forward means construction of larger formations and backward means destruction to more fundamental components if possible.</p>
+<h2 id="output">Output</h2>
+<p>Also a dictionary where each subclass of SubatomicParticle or Atom or Molecule has a quantity associated with it. Indicates how many exist in the output state.</p>
+
+  </main>
 
           
             <footer role="contentinfo">

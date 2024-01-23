@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.120.4">
-  <link rel="canonical" href="https://m4gg13.github.io/posts/post-github-pages-hugo-25november2023/" />
+  <link rel="canonical" href="https://m4gg13.github.io/posts/post3-particle-sandbox-23november2023/" />
 
   
     
-    <meta name="description" content="Making a Github Pages site with Hugo was a struggle! But my boyfriend Jacob and I made with work with the help of these resources
-https://gohugo.io/getting-started/quick-start/ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site https://freshman.tech/web-development-with-go/ https://blog.clairvoyantsoft.com/create-a-static-website-with-hugo-and-host-it-with-github-pages-f268b12371 After 5 hours of working on it, we sorted out that a structure like this (screenshot of and link to private repo) https://github.com/m4gg13/m4gg13.github.io-private (screenshot of and link to public repo) https://github.com/m4gg13/m4gg13.github.io made sense for the Hugo workflow. Note: The repos’ structures might have changed since this post was made.">
+    <meta name="description" content="I’ve got some education on the subject of programming a quantum computer. Used Qiskit as well as OpenQASM. I have less education on the subject of particle physics but I do love the particle physics at a high level. I’ve become somewhat familiar with it through comsuming relevant media like:
+field guide to particle physics that one mindscape episode and other ones too wiki pages youtube videos Thought a good first step would be looking into what kinds of algorithms get used in quantum particle simulations.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://m4gg13.github.io/apple-touch-icon.png">
@@ -57,7 +57,7 @@ https://gohugo.io/getting-started/quick-start/ https://docs.github.com/en/pages/
 
   
   
-  <title>Github Pages &amp; Hugo - A tutorial | My New Hugo Site</title>
+  <title>Particle Sandbox - Identifying a simulation algorithm | My New Hugo Site</title>
 </head>
 
   <body>
@@ -208,37 +208,18 @@ https://gohugo.io/getting-started/quick-start/ https://docs.github.com/en/pages/
         <div>
           
   <main id="main">
-    <h1>Github Pages &amp; Hugo - A tutorial</h1>
-    <p>Making a Github Pages site with Hugo was a struggle! But my boyfriend Jacob and I made with work with the help of these resources</p>
+    <h1>Particle Sandbox - Identifying a simulation algorithm</h1>
+    <!-- raw HTML omitted -->
+<p>I&rsquo;ve got some education on the subject of programming a quantum computer. Used Qiskit as well as OpenQASM. I have less education on the subject of particle physics but I do love the particle physics at a high level. I&rsquo;ve become somewhat familiar with it through comsuming relevant media like:</p>
 <ul>
-<li><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
-<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site</a></li>
-<li><a href="https://freshman.tech/web-development-with-go/">https://freshman.tech/web-development-with-go/</a></li>
-<li><a href="https://blog.clairvoyantsoft.com/create-a-static-website-with-hugo-and-host-it-with-github-pages-f268b12371">https://blog.clairvoyantsoft.com/create-a-static-website-with-hugo-and-host-it-with-github-pages-f268b12371</a></li>
+<li>field guide to particle physics</li>
+<li>that one mindscape episode and other ones too</li>
+<li>wiki pages</li>
+<li>youtube videos</li>
 </ul>
-<p>After 5 hours of working on it, we sorted out that a structure like this
-(screenshot of and link to private repo)
-<a href="https://github.com/m4gg13/m4gg13.github.io-private">https://github.com/m4gg13/m4gg13.github.io-private</a>
-(screenshot of and link to public repo)
-<a href="https://github.com/m4gg13/m4gg13.github.io">https://github.com/m4gg13/m4gg13.github.io</a>
-made sense for the Hugo workflow.
-Note: The repos&rsquo; structures might have changed since this post was made. Refer to the screenshots if so.</p>
-<p>We determined that for setup, you&rsquo;re going to want to follow these steps:</p>
-<ol>
-<li>install dependencies <a href="https://gohugo.io/getting-started/quick-start/#prerequisites">see here</a></li>
-<li>make a repo for your Github Pages site <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">see here</a> <a href="https://www.google.com/search?client=firefox-b-1-d&amp;q=how+to+make+a+github+pages+site#fpstate=ive&amp;vld=cid:722d031c,vid:dcql0BItibs,st:0">or here</a></li>
-<li>Create a local Hugo site by running <code>hugo new site quickstart</code>. Got this command from <a href="https://gohugo.io/getting-started/quick-start/#commands">this</a> tutorial.</li>
-<li>Try running your site locally with <code>hugo serve</code>. The output of that command will tell you the URL to go to.</li>
-<li>Based on Hugo&rsquo;s build workflow, I found that this particular structure works best<!-- raw HTML omitted -->
-<ul>
-<li>One repo for source code</li>
-<li>One repo for compiled code</li>
-<li>If you choose to use a theme, one repo that is a fork of that theme so you&rsquo;re able to easily track changes you make to the theme</li>
-</ul>
-</li>
-<li>run <code>hugo</code> to generate the <code>public/</code> folder where your compiled code is. if you&rsquo;re going with the same structure I used where theres a repo for source files and a repo for compiled files, then you&rsquo;re going to want to move all of the contents of public over to the compiled files repo</li>
-<li>if you&rsquo;ve successfully found yourself able to see the expected contents on your github pages site, maybe you&rsquo;re ready for a theme. <!-- raw HTML omitted --></li>
-</ol>
+<p>Thought a good first step would be looking into what kinds of algorithms get used in quantum particle simulations. That fits into the broader category of chemical simulations, really. So i turned to this article <a href="https://arxiv.org/pdf/2109.02873.pdf">&ldquo;Emerging quantum computing algorithms for quantum chemistry&rdquo;</a></p>
+<p>and discovered that of the suggested algorithms that are available in the qiskit library, we&rsquo;ve got Trotterization. Suzuki Trotter specifically. So I guess that&rsquo;s what we&rsquo;re going with.</p>
+<p>Also, got this repo where someone started doing the work of setting up standard model visualization things so i&rsquo;ll fork that and add python to it for qiskit</p>
 
   </main>
 
