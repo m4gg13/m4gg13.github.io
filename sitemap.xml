@@ -2,16 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://m4gg13.github.io/tags/climbing/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/tags/fixed-bolts/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/tags/multipitch/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/posts/post-multipitchskills-topbelaysetup-fixedboltanchor-5september2024/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/posts/post-multipitchskills-topbelaysetup-tradanchor-5september2024/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/posts/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/tags/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/tags/top-belay/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://m4gg13.github.io/tags/trad-anchor/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://m4gg13.github.io/posts/post1-github-pages-hugo-25november2023/</loc>
     <lastmod>1990-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://m4gg13.github.io/</loc>
-    <lastmod>1990-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://m4gg13.github.io/posts/post3-particle-sandbox-23november2023/</loc>
-    <lastmod>1990-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://m4gg13.github.io/posts/</loc>
     <lastmod>1990-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://m4gg13.github.io/about/</loc>
@@ -19,6 +43,8 @@
     <loc>https://m4gg13.github.io/categories/</loc>
   </url><url>
     <loc>https://m4gg13.github.io/posts/post6-philosophy-canon/</loc>
+  </url><url>
+    <loc>https://m4gg13.github.io/posts/post-miniessay-narative-transport-5september2024/</loc>
   </url><url>
     <loc>https://m4gg13.github.io/posts/post7-particle-sandbox-22january2024/</loc>
   </url><url>
@@ -28,6 +54,8 @@
   </url><url>
     <loc>https://m4gg13.github.io/posts/post4-philosophy-6december2023/</loc>
   </url><url>
-    <loc>https://m4gg13.github.io/tags/</loc>
+    <loc>https://m4gg13.github.io/posts/post-miniessay-street-epistemology1-3september2024/</loc>
+  </url><url>
+    <loc>https://m4gg13.github.io/posts/post-miniessay-street-epistemology2-3september2024/</loc>
   </url>
 </urlset>
